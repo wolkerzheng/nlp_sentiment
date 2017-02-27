@@ -147,6 +147,6 @@ if __name__ == '__main__':
             a+=1
         # print testNb(item)
     print a
-    print '准确率：',a/float(500)
+    print '准确率：',a/1000.0
 X,Y = loaddDataSet()
 print Y.count(0)
